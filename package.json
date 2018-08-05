@@ -1,0 +1,24 @@
+{
+  "name": "javascript-drum",
+  "version": "1.0.0",
+  "description": "Javascript Drum Player",
+  "main": "index.js",
+  "scripts": {
+    "start":"browser-sync start --server --port 4500 --files '**/*.css, **/*.html, **/*.js' --single index.html --ignore '**/node_modules/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbshub/javascript-drum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbshub/javascript-drum/issues"
+  },
+  "homepage": "https://github.com/bbshub/javascript-drum#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6"
+  }
+}
